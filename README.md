@@ -9,8 +9,8 @@ Some of the biases that I think exist are that the system can determines the sco
 Personal Analysis:
 Problem: 
 In the twitter community there is alway a lot of controversy between K-Pop Fans who stand diffrent groups. With big fandoms such as with the K-Pop band BTS, there is a lot of rivalry between fans and haters. Fans of BTS usually refer to themselves as K-Army and those who hate BTS are refered as ant-armys. The dillema that often comes about is that anti-army hate comments are alot harder to take down and often times K-Army positive comments are taken down more often than the comments from anti-army. 
-Hypothesis:
-The reason I think that this 
-Methods
+Hypothesis: Based on the misscoring of the previous wikipedia comments data set, I predict that anti-army comments will be scored lower than k-army comments. I think these are the results that will be yielded because anti-army usually use special characters and use clever ways to work around systems that identify negative language so that their hate can continue to spread. I think k-army will receive higher scores than anti-army because they are usually describing how attractive the members are, sometimes although they are complimenting them there are words that can be triggering for the system. This was seen in the 'Total_Score' Column that had a tally of 0 and had high scores because a word was taken out of context.
+Methods:
+I chose 12 comments from twitter from diffrent threads commenting on namjoons apperance. I sourced (links attached on doc) the twitter comments and chose 6 positive comments from k-army and 6 negative comments from ant-army. I made 2 different lists of these comments and then put them through the scoring function to receive a score for each comment. I then decided to categorize the scoring of the comments by priority using a set threshold. These threshold were obtained by getting the score column general stats and analysing the trend score of the wikipedia comments.  
 Results
 What is my theory of why this happened?
